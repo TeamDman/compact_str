@@ -45,7 +45,7 @@ serde = { version = "1", optional = true, default-features = false, features = [
 smallvec = { version = "1", optional = true, features = ["union"] }
 sqlx = { version = "0.8", optional = true, default-features = false }
 zeroize = { version = "1", optional = true, default-features = false }
-bevy_reflect = {version = "0.17.0-rc.2", optional = true}
+bevy_reflect = {git = "https://github.com/TeamDman/bevy.git", rev = "fa87d64501a6b818a2db5ab1719046cff0f4c1c2", optional=true}
 castaway = { version = "0.2.3", default-features = false, features = ["alloc"] }
 cfg-if = "1"
 itoa = "1"
