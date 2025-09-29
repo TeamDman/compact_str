@@ -68,3 +68,7 @@ test-strategy = "0.3"
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
+
+
+[patch."https://github.com/TeamDman/bevy"]
+bevy = { path = "D:/Repos/games/bevy" }
