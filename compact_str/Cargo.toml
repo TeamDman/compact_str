@@ -71,4 +71,5 @@ rustdoc-args = ["--cfg", "docsrs"]
 
 
 [patch."https://github.com/TeamDman/bevy"]
-bevy = { path = "D:/Repos/games/bevy" }
+# bevy = { path = "D:/Repos/games/bevy" }
+bevy_reflect = { path = "D:/Repos/games/bevy/crates/bevy_reflect" }
